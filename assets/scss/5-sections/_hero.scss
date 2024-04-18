@@ -1,0 +1,50 @@
+/*--------------*\
+    Hero Section
+\*--------------*/
+.section_hero{
+    background-image: url('/assets/images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    .hero_content{
+        max-width: 750px;
+        background: $brand_light_blue;
+        margin-left: auto;
+       height: 100%;
+       padding-left: 60px;
+       padding-right: 60px;
+       display: flex;
+       flex-flow: column;
+       justify-content: center;
+       h6{
+        color: $white;
+       }
+       h2,p{
+        color: $white;
+        margin-bottom: 20px;
+       }
+    }
+}
+
+.hero_section_banner{
+    background-image: url('/assets/images/about-hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    .hero_banner_content{
+        max-width: 750px;
+        background: $brand_light_blue;
+        margin-left: auto;
+       height: 100%;
+       padding-left: 60px;
+       padding-right: 60px;
+       display: flex;
+       flex-flow: column;
+       justify-content: center;
+       h2,p{
+        color: $white;
+        margin-bottom: 20px;
+       }
+    }
+}
+

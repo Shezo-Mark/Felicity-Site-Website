@@ -1,0 +1,33 @@
+/*-------what-we-offer-hero-section-------*/
+.what_we_offer_hero{
+    background-image: url('/assets/images/what_we_offer_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    .what_we_offer_content{
+        max-width: 750px;
+        background: $brand_light_blue;
+        margin-left: auto;
+       height: 100%;
+       padding-left: 60px;
+       padding-right: 60px;
+       display: flex;
+       flex-flow: column;
+       justify-content: center;
+       h2,p{
+        color: $white;
+        margin-bottom: 20px;
+       }
+    }
+}
+/*-------section_what_we_offer_services-------*/
+.section_what_we_offer_services{
+    h2{
+        margin-bottom: 20px;
+    }
+}
+.inner_what_we_offer_services{
+    background-color: $brand-blue;
+    padding: 90px;
+    border-radius: 20px;
+}

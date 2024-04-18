@@ -1,0 +1,73 @@
+/*--------------*\
+    header Section
+\*--------------*/
+header{
+    padding: 10px 0;
+    .header_top{
+        border-bottom: 1px dashed $brand-blue;
+        padding-top: 25px;
+        padding-bottom: 8px;
+    }
+    .header_main{
+        padding-top: 15px;
+        .navbar-brand{
+            max-width: 150px;
+        }
+        .navbar-nav{
+            li{
+                font-size: 15px;
+                +li{
+                    margin-left: 20px;
+                }
+                .dropdown-menu{
+                    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.18);
+                    border: none;
+                    // background-color: $brand-blue;
+                    border-radius:0 0 8px 8px;
+                    padding: 0;
+                  a{
+                    padding: 10px 6px;
+                    font-size: 13px;
+                    color: $brand-blue;
+                    &:last-of-type{
+                        border-radius:0 0 6px 6px;
+                    }
+                    &:hover{
+                        background-color: $brand-blue;
+                        color: $white;
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.admin_info{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     a{
+        color:$brand-blue;
+        font-size: 12px;
+        padding:0 10px;
+        i{
+            font-size: 14px;
+            margin-right: 8px;
+        }
+        + a{
+            border-left: 1px dashed $brand-blue;
+        }
+        &:last-of-type{
+            padding-right: 0;
+        }
+    }
+}

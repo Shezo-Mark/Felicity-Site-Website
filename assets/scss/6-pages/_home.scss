@@ -1,0 +1,80 @@
+/*--------------*\
+    Home Page
+\*--------------*/
+
+.section_about_us{
+    h2{
+        margin-bottom: 20px;
+    }
+    h5{
+        margin: 20px 0 7px;
+    }
+}
+.section_services{
+    color: $white;
+    background-color: $body-main-color;
+    padding: 60px;
+    .main_heading{
+        color: white;
+        margin-bottom: 20px;
+    }
+    .sub_title_services{
+        margin-bottom: 56px;
+
+    }
+    .card_services{
+        border-radius: 16px;
+        border: 0px;
+        .img{
+            border-radius: 16px;
+        }
+        .desc{
+            padding: 20px 20px 0 20px;
+            p{
+                color: #777;
+                font-size: 15px;
+                line-height: 1.5rem;
+                padding-bottom: 13px;
+            }
+            a{
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 4px;
+            }
+            .date{
+                color: #adadad;
+                font-size: 12px;
+                line-height: 1.3em;
+                    span::before{
+                            content: "•";
+                            margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section_testimonials{
+        .owl-carousel{
+            margin-top: 40px;
+            padding: 10px 50px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+            .profile_details{
+                a{
+                    margin-top: 10px ;
+                    width: 90px;
+                    padding: 9px;
+                    border-radius: 50%;
+                    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+                    img{
+                        border-radius: 50%;
+                    }
+                }
+                h4{
+                    font-weight: 800;
+                }
+            }
+        }
+    }

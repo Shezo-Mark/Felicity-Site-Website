@@ -1,0 +1,29 @@
+.blog_main_section{
+    .pagination {
+        display: inline-block;
+        a {
+            color: $brand-blue;
+            float: left;
+            margin: 0 5px;
+            padding: 8px 10px;
+            text-decoration: none;
+            transition: background-color 0.5s;
+            border: 2px solid #E2DFEB;
+            border-radius: 4px;
+        }
+        a.active {
+            color: #FFF;
+            background-color: $brand-red;
+            border: 2px solid $brand-red;
+        }
+        a:hover:not(.active) {
+            background-color: #FFF;
+            border: 2px solid $brand-red;
+        }
+    }
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+}
