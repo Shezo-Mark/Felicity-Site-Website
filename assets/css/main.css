@@ -1043,56 +1043,36 @@ header .header_main .navbar-nav li .dropdown-menu a:hover {
 .section_services .sub_title_services {
   margin-bottom: 56px;
 }
-.section_services .card_services {
+.section_services .service_item {
   border-radius: 16px;
   border: 0px;
 }
-.section_services .card_services .img {
-  border-radius: 16px;
+.section_services .service_item .card-img-top {
+  border-radius: 16px 16px 0 0;
 }
-.section_services .card_services .desc {
+.section_services .service_item .service_content {
   padding: 20px 20px 0 20px;
 }
-.section_services .card_services .desc p {
+.section_services .service_item .service_content p {
   color: #777;
   font-size: 15px;
   line-height: 1.5rem;
   padding-bottom: 13px;
 }
-.section_services .card_services .desc a {
+.section_services .service_item .service_content a {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 4px;
 }
-.section_services .card_services .desc .date {
+.section_services .service_item .service_content .date {
   color: #adadad;
   font-size: 12px;
   line-height: 1.3em;
 }
-.section_services .card_services .desc .date span::before {
+.section_services .service_item .service_content .date span::before {
   content: "•";
   margin: 0 5px;
-}
-
-.section_testimonials .owl-carousel {
-  margin-top: 40px;
-  padding: 10px 50px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-}
-.section_testimonials .owl-carousel .profile_details a {
-  margin-top: 10px;
-  width: 90px;
-  padding: 9px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-}
-.section_testimonials .owl-carousel .profile_details a img {
-  border-radius: 50%;
-}
-.section_testimonials .owl-carousel .profile_details h4 {
-  font-weight: 800;
 }
 
 .product_main_section .owl-theme img {
